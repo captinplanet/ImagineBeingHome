@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom'; // Adds the 'toBeInTheDocument' and 'toHaveClass' vocabulary
+import { describe, it, expect } from 'vitest'; // Imports the core testing functions
 import LandingPage from './LandingPage';
-import { describe, it, expect } from 'vitest';
-import React from 'react';
 
 describe('LandingPage', () => {
   it('renders the headline', () => {
