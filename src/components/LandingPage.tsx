@@ -67,7 +67,7 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Banner Image */}
-      <div className="w-full max-w-[760px] mx-auto mb-8 px-6 md:px-0">
+      <div className="w-full max-w-[760px] mx-auto my-8 px-6 md:px-0">
         <img src="/Sundial_banner.png" alt="Sundial Banner" className="w-full h-auto rounded-xl" />
       </div>
 
