@@ -67,15 +67,13 @@ const LandingPage: React.FC = () => {
               </div>
 
             </div>
-
-            <div className="flex justify-center mt-8 pt-8 border-t border-gray-100 w-full max-w-lg mx-auto">
-                 {/* Placeholder for Logo */}
-                 <div className="h-20 w-auto flex items-center justify-center opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-                    <img src="https://placehold.co/300x100/transparent/1f2937?text=Sundial+Real+Estate+Logo" alt="Sundial Real Estate Logo" className="h-full object-contain" />
-                 </div>
-            </div>
         </div>
       </section>
+
+      {/* Banner Image */}
+      <div className="w-1/2 mx-auto mb-8">
+        <img src="/Sundial_banner.png" alt="Sundial Banner" className="w-full h-auto" />
+      </div>
 
       {/* Footer / Disclaimer */}
       <footer className="bg-gray-50 py-8 text-center px-4 border-t border-gray-200">
