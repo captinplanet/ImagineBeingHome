@@ -13,7 +13,7 @@ describe('LandingPage', () => {
   it('renders the "HOME" text with correct color class', () => {
     render(<LandingPage />);
     const homeText = screen.getByText('HOME');
-    expect(homeText).toHaveClass('text-sundial-orange');
+    expect(homeText).toHaveClass('text-deep-teal');
   });
 
   it('renders the download button with correct link', () => {
