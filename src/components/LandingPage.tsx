@@ -78,7 +78,7 @@ const LandingPage: React.FC = () => {
       {/* Footer / Disclaimer */}
       <footer className="bg-gray-50 py-8 text-center px-4 border-t border-gray-200">
         <p className="text-xs text-gray-500 max-w-xl mx-auto leading-relaxed">
-          Vendor recommendations are provided as a courtesy, clients should verify licensing and insurance.
+          Vendor recommendations are provided as a courtesy. Clients should verify licensing, insurance, and credentials independently. Sundial Real Estate and Brittany Kiniry do not guarantee third-party services.
         </p>
         <p className="text-xs text-gray-400 mt-4">
           © {new Date().getFullYear()} Sundial Real Estate. All rights reserved.
