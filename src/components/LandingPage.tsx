@@ -3,17 +3,29 @@ import React from 'react';
 const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
-      {/* Main Content Container - Strict max-w-760px */}
-      <div className="w-full max-w-[760px] mx-auto p-8 md:p-16">
 
-        {/* Hero Section */}
-        <header className="flex flex-col items-center text-center mb-12 bg-[url('/OrlandoBlur.avif')] bg-cover bg-center bg-no-repeat py-16 px-6 rounded-3xl">
-            <div className="bg-white/80 backdrop-blur-md p-8 rounded-[16px] max-w-2xl mx-auto mb-12">
-              <h1 className="font-playfair font-semibold mb-6 tracking-tight leading-tight text-deep-teal flex flex-col items-center">
+      {/* Full-Bleed Hero Section */}
+      <header className="relative w-full h-[55vh] min-h-[500px] flex flex-col justify-end">
+        {/* Background Image */}
+        <div className="absolute inset-0 w-full h-full">
+            <img
+                src="/OrlandoBlur.avif"
+                alt="Orlando Skyline Blur"
+                className="w-full h-full object-cover object-center"
+            />
+        </div>
+
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#F7F3EE] via-[#F7F3EE]/70 to-transparent"></div>
+
+        {/* Hero Content - Constrained Width & Bottom Aligned */}
+        <div className="relative z-10 w-full max-w-[760px] mx-auto px-6 pb-8 md:pb-12 text-center">
+            <div className="max-w-2xl mx-auto mb-8">
+              <h1 className="font-playfair font-semibold mb-6 tracking-tight leading-tight text-deep-teal flex flex-col items-center drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
                 <span className="text-3xl md:text-5xl italic mb-2">Imagine Being...</span>
                 <span className="text-6xl md:text-8xl font-bold text-coral-accent">HOME</span>
               </h1>
-              <p className="font-montserrat text-xl md:text-2xl text-warm-gray leading-relaxed">
+              <p className="font-montserrat text-xl md:text-2xl text-[#4A4A4A] font-medium leading-relaxed">
                 Your go-to hub for trusted vendors, local favorites, and homeowner tips in Conway, SoDo, Belle Isle, and Greater Orlando.
               </p>
             </div>
@@ -34,14 +46,18 @@ const LandingPage: React.FC = () => {
                   Browse the Resource Guide
               </a>
             </div>
-        </header>
+        </div>
+      </header>
+
+      {/* Main Content Container - Strict max-w-760px */}
+      <div className="w-full max-w-[760px] mx-auto px-8 pt-8 md:px-16 md:pt-12 pb-16">
 
         {/* Credibility Section */}
         <section className="flex flex-row items-center justify-center gap-6 mb-12 py-6 px-8 bg-white rounded-button border border-gray-200 w-full max-w-md mx-auto">
             <div className="flex-shrink-0">
-                <div className="w-20 h-20 bg-seafoam rounded-full overflow-hidden">
+                <div className="w-20 h-20 bg-seafoam rounded-full overflow-hidden border-2 border-white shadow-md">
                     {/* Placeholder for Headshot */}
-                    <img src="https://placehold.co/150x150/AEE6DF/1F7A7A?text=BK" alt="Brittany Kiniry" className="w-full h-full object-cover" />
+                    <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-full object-cover" />
                 </div>
             </div>
 

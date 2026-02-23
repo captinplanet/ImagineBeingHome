@@ -13,7 +13,8 @@ describe('LandingPage', () => {
   it('renders the headline with correct color class', () => {
     render(<LandingPage />);
     const headline = screen.getByRole('heading', { level: 1 });
-    expect(headline).toHaveTextContent(/Imagine Being... HOME/i);
+    expect(headline).toHaveTextContent(/Imagine Being.../i);
+    expect(headline).toHaveTextContent(/HOME/i);
     expect(headline).toHaveClass('text-deep-teal');
   });
 
