@@ -34,7 +34,7 @@ const LandingPage: React.FC = () => {
         </header>
 
         {/* Credibility Section */}
-        <section className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 mb-12 py-8 border-t border-light-gray/30 border-b border-light-gray/30">
+        <section className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 mb-12 py-8 px-8 bg-white rounded-button shadow-none">
             <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-1">
                 <h3 className="font-playfair font-semibold text-2xl text-warm-gray">Brittany Kiniry</h3>
                 <p className="text-warm-gray text-lg font-medium">Sundial Real Estate</p>
