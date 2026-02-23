@@ -3,6 +3,9 @@ import React from 'react';
 const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
+      <style>
+        {`@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');`}
+      </style>
 
       {/* Full-Bleed Hero Section */}
       <header className="relative w-full h-[55vh] min-h-[500px] flex flex-col justify-end">
@@ -21,9 +24,9 @@ const LandingPage: React.FC = () => {
         {/* Hero Content - Constrained Width & Bottom Aligned */}
         <div className="relative z-10 w-full max-w-[760px] mx-auto px-6 pb-8 md:pb-12 text-center">
             <div className="max-w-2xl mx-auto mb-8">
-              <h1 className="font-playfair font-semibold mb-6 tracking-tight leading-tight text-deep-teal flex flex-col items-center drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
-                <span className="text-3xl md:text-5xl italic mb-2">Imagine Being...</span>
-                <span className="text-6xl md:text-8xl font-bold text-coral-accent">HOME</span>
+              <h1 className="font-playfair font-semibold mb-8 tracking-tight leading-tight text-deep-teal flex flex-col items-center drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
+                <span className="text-5xl md:text-7xl italic mb-12">Imagine Being...</span>
+                <span className="text-[9rem] md:text-[12rem] text-coral-accent leading-[0.8]" style={{ fontFamily: "'Great Vibes', cursive" }}>Home!</span>
               </h1>
               <p className="font-montserrat text-xl md:text-2xl text-[#4A4A4A] font-medium leading-relaxed">
                 Your go-to hub for trusted vendors, local favorites, and homeowner tips in Conway, SoDo, Belle Isle, and Greater Orlando.
