@@ -57,7 +57,7 @@ const LandingPage: React.FC = () => {
 
         {/* Banner Image */}
         <div className="w-full mb-12">
-            <div className="bg-seafoam rounded-image overflow-hidden">
+            <div className="rounded-image overflow-hidden">
                  <img src="/Sundial_banner.png" alt="Sundial Banner" className="w-full h-auto rounded-image block" />
             </div>
         </div>
