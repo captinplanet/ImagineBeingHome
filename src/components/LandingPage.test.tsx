@@ -10,10 +10,11 @@ describe('LandingPage', () => {
     expect(headline).toBeInTheDocument();
   });
 
-  it('renders the "HOME" text with correct color class', () => {
+  it('renders the headline with correct color class', () => {
     render(<LandingPage />);
-    const homeText = screen.getByText('HOME');
-    expect(homeText).toHaveClass('text-deep-teal');
+    const headline = screen.getByRole('heading', { level: 1 });
+    expect(headline).toHaveTextContent(/Imagine Being... HOME/i);
+    expect(headline).toHaveClass('text-deep-teal');
   });
 
   it('renders the download button with correct link', () => {

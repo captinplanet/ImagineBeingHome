@@ -10,11 +10,11 @@ export default {
         'sand-bg': '#F7F3EE',
         'white': '#FFFFFF',
         'warm-gray': '#4A4A4A',
-        'light-gray': '#D9D6D2',
         'deep-teal': '#1F7A7A',
         'seafoam': '#AEE6DF',
-        'light-seafoam': '#D9F3F0',
         'coral-accent': '#FF6F61',
+        'light-gray': '#D9D6D2',
+        'light-seafoam': '#D9F3F0',
         'warm-yellow': '#F5C84C',
       },
       fontFamily: {
@@ -22,9 +22,22 @@ export default {
         montserrat: ['"Montserrat"', 'sans-serif'],
       },
       borderRadius: {
-        'xl': '1rem', // 16px - covering the 14-18px request
-      }
+        'button': '16px',
+        'image': '16px',
+        'xl': '16px', // Overriding xl just in case
+      },
     },
+    // Override default shadows to be empty/none
+    boxShadow: {
+      'none': 'none',
+      'sm': 'none',
+      'DEFAULT': 'none',
+      'md': 'none',
+      'lg': 'none',
+      'xl': 'none',
+      '2xl': 'none',
+      'inner': 'none',
+    }
   },
   plugins: [],
 }
