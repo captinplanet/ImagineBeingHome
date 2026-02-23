@@ -7,14 +7,16 @@ const LandingPage: React.FC = () => {
       <div className="w-full max-w-[760px] mx-auto p-8 md:p-16">
 
         {/* Hero Section */}
-        <header className="flex flex-col items-center text-center mb-12">
-            <h1 className="font-playfair font-semibold mb-6 tracking-tight leading-tight text-deep-teal flex flex-col items-center">
-              <span className="text-3xl md:text-5xl italic mb-2">Imagine Being...</span>
-              <span className="text-6xl md:text-8xl font-bold text-coral-accent">HOME</span>
-            </h1>
-            <p className="font-montserrat text-xl md:text-2xl text-warm-gray mb-12 leading-relaxed max-w-2xl mx-auto">
-              Your go-to hub for trusted vendors, local favorites, and homeowner tips in Conway, SoDo, Belle Isle, and Greater Orlando.
-            </p>
+        <header className="flex flex-col items-center text-center mb-12 bg-[url('/OrlandoBlur.avif')] bg-cover bg-center bg-no-repeat py-16 px-6 rounded-3xl">
+            <div className="bg-white/80 backdrop-blur-md p-8 rounded-[16px] max-w-2xl mx-auto mb-12">
+              <h1 className="font-playfair font-semibold mb-6 tracking-tight leading-tight text-deep-teal flex flex-col items-center">
+                <span className="text-3xl md:text-5xl italic mb-2">Imagine Being...</span>
+                <span className="text-6xl md:text-8xl font-bold text-coral-accent">HOME</span>
+              </h1>
+              <p className="font-montserrat text-xl md:text-2xl text-warm-gray leading-relaxed">
+                Your go-to hub for trusted vendors, local favorites, and homeowner tips in Conway, SoDo, Belle Isle, and Greater Orlando.
+              </p>
+            </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
               <a
