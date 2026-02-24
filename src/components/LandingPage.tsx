@@ -24,7 +24,7 @@ const LandingPage: React.FC = () => {
         {/* Hero Content - Constrained Width & Bottom Aligned */}
         <div className="relative z-10 w-full max-w-[760px] mx-auto px-6 pb-8 md:pb-12 text-center">
             <div className="max-w-2xl mx-auto mb-8">
-              <h1 className="font-playfair font-semibold mb-8 tracking-tight leading-tight text-deep-teal flex flex-col items-center drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
+              <h1 className="font-playfair font-semibold mb-8 tracking-tight leading-tight text-deep-teal flex flex-col items-center drop-shadow-[0_0px_5px_rgba(255,255,255,1)] md:drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
                 <span className="text-4xl md:text-7xl italic mb-6 md:mb-12">Imagine Being...</span>
                 <span className="text-[6rem] md:text-[12rem] text-coral-accent leading-[0.8]" style={{ fontFamily: "'Great Vibes', cursive" }}>Home!</span>
               </h1>
