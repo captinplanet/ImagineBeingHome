@@ -1,4 +1,6 @@
 import React from 'react';
+import EqualHousing from '../assets/Equal-Housing.png';
+import RealtorMLS from '../assets/Realtor-MLS.png';
 
 const LandingPage: React.FC = () => {
   return (
@@ -66,7 +68,7 @@ const LandingPage: React.FC = () => {
 
             <div className="w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 space-y-1">
                 <h3 className="font-playfair font-bold text-xl text-warm-gray">Brittany Kiniry</h3>
-                <p className="text-warm-gray text-sm">Sundial Real Estate</p>
+                <p className="text-sm font-medium tracking-wide text-[#4A4A4A]">REALTOR®</p>
                 <a href="tel:4077593275" className="text-warm-gray text-base font-medium hover:text-[#1F7A7A] transition-colors duration-200">407.759.3275</a>
                 <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-coral-accent font-medium transition-colors text-sm">
                   @brittany_is_your_realtor
@@ -84,6 +86,10 @@ const LandingPage: React.FC = () => {
             <p className="text-xs text-warm-gray/80 leading-relaxed mb-4">
               Vendor recommendations are provided as a courtesy. Clients should verify licensing, insurance, and credentials independently. Sundial Real Estate and Brittany Kiniry do not guarantee third-party services.
             </p>
+            <div className="flex justify-center items-center gap-6 mb-6">
+                <img src={EqualHousing} alt="Equal Housing Opportunity" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+                <img src={RealtorMLS} alt="Realtor MLS" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+            </div>
             <p className="text-xs text-warm-gray/60">
               © {new Date().getFullYear()} Sundial Real Estate. All rights reserved.
             </p>
