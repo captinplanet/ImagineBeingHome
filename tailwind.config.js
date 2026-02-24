@@ -30,7 +30,7 @@ export default {
     // Override default shadows to be empty/none
     boxShadow: {
       'none': 'none',
-      'sm': 'none',
+      'sm': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
       'DEFAULT': 'none',
       'md': 'none',
       'lg': 'none',
