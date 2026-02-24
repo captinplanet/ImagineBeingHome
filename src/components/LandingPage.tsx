@@ -14,7 +14,7 @@ const LandingPage: React.FC = () => {
             <img
                 src="/OrlandoBlur.avif"
                 alt="Orlando Skyline Blur"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-[center_20%] md:object-center"
             />
         </div>
 
@@ -28,7 +28,7 @@ const LandingPage: React.FC = () => {
                 <span className="text-4xl md:text-7xl italic mb-6 md:mb-12">Imagine Being...</span>
                 <span className="text-[6rem] md:text-[12rem] text-coral-accent leading-[0.8]" style={{ fontFamily: "'Great Vibes', cursive" }}>Home!</span>
               </h1>
-              <p className="font-montserrat text-xl md:text-2xl text-[#4A4A4A] font-medium leading-relaxed">
+              <p className="font-montserrat text-sm md:text-2xl text-[#4A4A4A] font-semibold leading-snug md:leading-normal drop-shadow-[0_0px_4px_rgba(255,255,255,1)]">
                 Your go-to hub for trusted vendors, local favorites, and homeowner tips in Conway, SoDo, Belle Isle, and Greater Orlando.
               </p>
             </div>
