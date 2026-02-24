@@ -64,10 +64,10 @@ const LandingPage: React.FC = () => {
                 <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-full object-cover object-center" />
             </div>
 
-            <div className="w-2/3 p-6 md:p-8 flex flex-col justify-center text-left space-y-1">
+            <div className="w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 space-y-1">
                 <h3 className="font-playfair font-bold text-xl text-warm-gray">Brittany Kiniry</h3>
-                <p className="text-warm-gray text-sm mb-1">Sundial Real Estate</p>
-                <p className="text-warm-gray text-base font-medium">407.759.3275</p>
+                <p className="text-warm-gray text-sm">Sundial Real Estate</p>
+                <a href="tel:4077593275" className="text-warm-gray text-base font-medium hover:text-[#1F7A7A] transition-colors duration-200">407.759.3275</a>
                 <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-coral-accent font-medium transition-colors text-sm">
                   @brittany_is_your_realtor
                 </a>
