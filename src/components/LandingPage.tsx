@@ -43,7 +43,9 @@ const LandingPage: React.FC = () => {
                   Download the Sundial App
               </a>
               <a
-                  href="#"
+                  href="https://www.canva.com/design/DAHBy52ZfSc/KCfaJqE4pwgiyPgkoSWkhg/view?utm_content=DAHBy52ZfSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b67ea1a70"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center px-8 py-4 bg-white text-deep-teal border border-deep-teal text-lg font-medium rounded-button transition-colors duration-300"
               >
                   Browse the Resource Guide
