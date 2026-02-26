@@ -60,16 +60,17 @@ const LandingPage: React.FC = () => {
       <div className="w-full max-w-[760px] mx-auto px-8 pt-8 md:px-16 md:pt-12 pb-16">
 
         {/* Credibility Section */}
-        <section className="flex flex-row overflow-hidden bg-white rounded-[16px] max-w-lg mx-auto w-full shadow-sm border border-[#D9D6D2] mb-12">
-            <div className="w-1/3">
+        <section className="flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-lg mx-auto w-full shadow-sm border border-[#D9D6D2] mb-12">
+            <div className="w-full md:w-1/3">
                 {/* Placeholder for Headshot */}
-                <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-full object-cover object-center" />
+                <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
             </div>
 
-            <div className="w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 space-y-1">
+            <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 space-y-1">
                 <h3 className="font-playfair font-bold text-xl text-warm-gray">Brittany Kiniry</h3>
                 <p className="text-sm font-medium tracking-wide text-[#4A4A4A]">REALTOR®</p>
                 <a href="tel:4077593275" className="text-warm-gray text-base font-medium hover:text-[#1F7A7A] transition-colors duration-200">407.759.3275</a>
+                <a href="mailto:brittany@sundialrealestate.com" className="text-warm-gray text-base font-medium hover:text-[#1F7A7A] transition-colors duration-200">brittany@sundialrealestate.com</a>
                 <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-coral-accent font-medium transition-colors text-sm">
                   @brittany_is_your_realtor
                 </a>
