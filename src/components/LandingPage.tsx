@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import EqualHousing from '../assets/Equal-Housing.png';
 import RealtorMLS from '../assets/Realtor-MLS.png';
 
 const LandingPage: React.FC = () => {
+  const [isAboutExpanded, setIsAboutExpanded] = useState(false);
+
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
       <style>
@@ -81,6 +83,42 @@ const LandingPage: React.FC = () => {
         <div className="w-full mt-12 mb-12 flex justify-center">
              <img src="/Sundial_banner.png" alt="Sundial Real Estate" className="h-16 w-auto object-contain" />
         </div>
+
+        {/* About Me Section */}
+        <section className="w-full mb-12 flex flex-col items-center">
+            <button
+                onClick={() => setIsAboutExpanded(!isAboutExpanded)}
+                className="flex items-center gap-2 text-xl font-playfair font-semibold text-warm-gray hover:text-deep-teal transition-colors duration-300 focus:outline-none group"
+                aria-expanded={isAboutExpanded}
+            >
+                <span>About Me</span>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className={`w-5 h-5 transform transition-transform duration-300 group-hover:text-deep-teal ${isAboutExpanded ? 'rotate-180' : ''}`}
+                >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </button>
+
+            <div
+                data-testid="about-content"
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                    isAboutExpanded ? 'max-h-[1000px] opacity-100 mt-8' : 'max-h-0 opacity-0 mt-0'
+                }`}
+            >
+                <div className="text-left text-warm-gray font-montserrat text-sm md:text-base leading-relaxed space-y-4 px-2 md:px-8 max-w-2xl mx-auto">
+                    <p>Raised in Orlando and deeply rooted in Central Florida, I built my life around community, family, and service. After a chapter in Austin, Texas, where my husband and I started our family, we chose to return home to Orlando — a decision that reinforced just how special this community truly is.</p>
+                    <p>My personal experience buying and selling my own home with Sundial Real Estate gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
+                    <p>Before real estate, I built my career in customer service and earned a degree in culinary arts, where precision, timing, and attention to detail mattered every day. Those same skills now guide how I serve buyers and sellers — thoughtfully, proactively, and with steady support from contract to closing.</p>
+                    <p>As a wife, a mom of two, and an active member of the local community, I understand that buying or selling a home is more than a transaction. It’s about lifestyle, schools, commute, family rhythms, and long-term goals. I approach every client relationship with that bigger picture in mind.</p>
+                    <p>If you’re thinking about buying, selling, or simply exploring your options in Central Florida, I would be honored to guide you home.</p>
+                </div>
+            </div>
+        </section>
 
         {/* Footer */}
         <footer className="text-center pt-8 border-t border-light-gray/30">
