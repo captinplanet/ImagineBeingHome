@@ -88,17 +88,17 @@ const LandingPage: React.FC = () => {
         <section className="w-full mb-12 flex flex-col items-center">
             <button
                 onClick={() => setIsAboutExpanded(!isAboutExpanded)}
-                className="flex items-center gap-2 text-xl font-playfair font-semibold text-warm-gray hover:text-deep-teal transition-colors duration-300 focus:outline-none group"
+                className="flex justify-between items-center w-full max-w-5xl mx-auto border-y border-[#D9D6D2] py-4 px-6 md:px-12 cursor-pointer hover:bg-gray-50 transition-colors focus:outline-none group"
                 aria-expanded={isAboutExpanded}
             >
-                <span>About Me</span>
+                <span className="text-lg font-medium text-[#4A4A4A]">About me</span>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={2}
                     stroke="currentColor"
-                    className={`w-5 h-5 transform transition-transform duration-300 group-hover:text-deep-teal ${isAboutExpanded ? 'rotate-180' : ''}`}
+                    className={`w-5 h-5 transform transition-transform duration-300 text-[#4A4A4A] ${isAboutExpanded ? 'rotate-180' : ''}`}
                 >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
