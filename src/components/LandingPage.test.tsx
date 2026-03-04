@@ -15,7 +15,7 @@ describe('LandingPage', () => {
     const headline = screen.getByRole('heading', { level: 1 });
     expect(headline).toHaveTextContent(/Imagine Being.../i);
     expect(headline).toHaveTextContent(/HOME/i);
-    expect(headline).toHaveClass('text-deep-teal');
+    expect(headline).toHaveClass('text-[#4A4A4A]');
   });
 
   it('renders the download button with correct link', () => {
