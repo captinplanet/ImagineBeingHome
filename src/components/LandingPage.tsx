@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full min-h-[100dvh] flex flex-col justify-center py-16 md:py-24">
+      <header className="relative w-full min-h-[620px] md:min-h-screen flex flex-col justify-center py-16 md:py-24">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
