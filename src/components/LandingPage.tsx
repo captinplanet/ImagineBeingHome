@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full min-h-[55vh] min-h-[500px] flex flex-col justify-end pt-20 md:pt-0">
+      <header className="relative w-full flex flex-col justify-start pt-28 pb-8 md:pt-40 md:pb-10">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
@@ -26,9 +26,9 @@ const LandingPage: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-[#F7F3EE] via-[#F7F3EE]/70 to-transparent"></div>
 
         {/* Hero Content - Constrained Width & Bottom Aligned */}
-        <div className="relative z-10 w-full max-w-[760px] mx-auto px-6 pb-8 md:pb-12 text-center">
+        <div className="relative z-10 w-full max-w-[760px] mx-auto px-6 text-center">
             <div className="max-w-2xl mx-auto mb-8">
-              <h1 className="font-playfair font-semibold mb-8 tracking-tight leading-tight text-deep-teal flex flex-col items-center drop-shadow-[0_0px_5px_rgba(255,255,255,1)] md:drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
+              <h1 className="font-playfair font-semibold mb-8 tracking-tight leading-tight text-[#4A4A4A] flex flex-col items-center drop-shadow-[0_0px_5px_rgba(255,255,255,1)] md:drop-shadow-[0_0px_10px_rgba(255,255,255,0.9)]">
                 <span className="text-4xl md:text-7xl italic mb-6 md:mb-12">Imagine Being...</span>
                 <span className="text-[6rem] md:text-[12rem] text-coral-accent leading-[0.8]" style={{ fontFamily: "'Great Vibes', cursive" }}>Home!</span>
               </h1>
@@ -59,7 +59,7 @@ const LandingPage: React.FC = () => {
       </header>
 
       {/* Main Content Container - Strict max-w-760px */}
-      <div className="w-full max-w-[760px] mx-auto px-8 pt-8 md:px-16 md:pt-12 pb-16">
+      <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-4 md:pt-8 pb-16">
 
         {/* Credibility Section */}
         <section className="flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-lg mx-auto w-full shadow-sm border border-[#D9D6D2] mb-12">
