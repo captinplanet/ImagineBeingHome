@@ -68,14 +68,17 @@ const LandingPage: React.FC = () => {
                 <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
             </div>
 
-            <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 space-y-1">
-                <h3 className="font-playfair font-bold text-xl text-warm-gray">Brittany Kiniry</h3>
-                <p className="text-sm font-medium tracking-wide text-[#4A4A4A]">REALTOR®</p>
-                <a href="tel:4077593275" className="text-warm-gray text-base font-medium hover:text-[#1F7A7A] transition-colors duration-200">407.759.3275</a>
-                <a href="mailto:brittany@sundialrealestate.com" className="text-warm-gray text-base font-medium hover:text-[#1F7A7A] transition-colors duration-200">brittany@sundialrealestate.com</a>
-                <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-coral-accent font-medium transition-colors text-sm">
-                  @brittany_is_your_realtor
-                </a>
+            <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 gap-1.5">
+                <h3 className="text-2xl font-sans font-bold text-[#4A4A4A] tracking-tight mb-1">Brittany Kiniry</h3>
+                <div className="flex justify-between items-center w-full text-sm text-[#4A4A4A] mb-3">
+                    <span className="font-medium tracking-wide uppercase">REALTOR®</span>
+                    <span className="text-gray-500">#SL3627481</span>
+                </div>
+                <div className="flex flex-col gap-2 w-full mt-2">
+                    <a href="tel:4077593275" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">407.759.3275</a>
+                    <a href="mailto:brittany@sundialrealestate.com" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">brittany@sundialrealestate.com</a>
+                    <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">@brittany_is_your_realtor</a>
+                </div>
             </div>
         </section>
 
