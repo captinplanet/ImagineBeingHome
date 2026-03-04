@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full flex flex-col justify-center pt-24 pb-32 md:pt-32 md:pb-48">
+      <header className="relative w-full min-h-[500px] md:min-h-[75vh] flex flex-col justify-center pb-16 md:pb-24">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
@@ -63,7 +63,7 @@ const LandingPage: React.FC = () => {
       <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-4 md:pt-8 pb-16">
 
         {/* Credibility Section */}
-        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-lg mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-24 md:-mt-32 mb-12">
+        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-lg mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-20 mb-12">
             <div className="w-full md:w-1/3">
                 {/* Placeholder for Headshot */}
                 <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
