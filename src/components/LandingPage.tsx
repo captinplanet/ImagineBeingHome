@@ -63,22 +63,25 @@ const LandingPage: React.FC = () => {
       <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-4 md:pt-8 pb-16">
 
         {/* Credibility Section */}
-        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-lg mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-20 mb-12">
+        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-20 mb-12">
             <div className="w-full md:w-1/3">
                 {/* Placeholder for Headshot */}
                 <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
             </div>
 
-            <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-10 md:py-8 gap-1.5">
+            <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-8 md:py-8 gap-1.5">
                 <h3 className="text-2xl font-sans font-bold text-[#4A4A4A] tracking-tight mb-1">Brittany Kiniry</h3>
                 <div className="flex justify-between items-center w-full text-sm text-[#4A4A4A] mb-3">
                     <span className="font-medium tracking-wide uppercase">REALTOR®</span>
                     <span className="text-gray-500">#SL3627481</span>
                 </div>
                 <div className="flex flex-col gap-2 w-full mt-2">
-                    <a href="tel:4077593275" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">407.759.3275</a>
-                    <a href="mailto:brittany@sundialrealestate.com" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">brittany@sundialrealestate.com</a>
-                    <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">@brittany_is_your_realtor</a>
+                    <a href="tel:4077593275" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.759.3275</a>
+                    <a href="mailto:brittany@imaginebeinghome.com" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">
+                        <span className="hidden max-[360px]:inline">Email Brittany</span>
+                        <span className="max-[360px]:hidden">brittany@imaginebeinghome.com</span>
+                    </a>
+                    <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">@brittany_is_your_realtor</a>
                 </div>
             </div>
         </section>
