@@ -76,9 +76,9 @@ const LandingPage: React.FC = () => {
                     <span className="text-gray-500">#SL3627481</span>
                 </div>
                 <div className="flex flex-col gap-2 w-full mt-2">
-                    <a href="tel:4077593275" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">407.759.3275</a>
-                    <a href="mailto:brittany@sundialrealestate.com" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">brittany@sundialrealestate.com</a>
-                    <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-4 py-2.5 text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">@brittany_is_your_realtor</a>
+                    <a href="tel:4077593275" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 truncate">407.759.3275</a>
+                    <a href="mailto:brittany@imaginebeinghome.com" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 truncate">brittany@imaginebeinghome.com</a>
+                    <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 truncate">@brittany_is_your_realtor</a>
                 </div>
             </div>
         </section>
