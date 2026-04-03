@@ -38,14 +38,11 @@ const LandingPage: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
-              <a
-                  href="https://bk.homestack.com/sundialrealestate?aik=bkiniry"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center px-8 py-4 bg-deep-teal text-white text-lg font-medium rounded-button hover:bg-opacity-90 transition-opacity duration-300"
+              <button
+                  className="flex items-center justify-center px-8 py-4 bg-deep-teal text-white text-lg font-medium rounded-button hover:bg-opacity-90 transition-opacity duration-300 cursor-default"
               >
-                  Download the Sundial App
-              </a>
+                  Coming soon
+              </button>
               <a
                   href="https://www.canva.com/design/DAHBy52ZfSc/KCfaJqE4pwgiyPgkoSWkhg/view?utm_content=DAHBy52ZfSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b67ea1a70"
                   target="_blank"
@@ -88,7 +85,7 @@ const LandingPage: React.FC = () => {
 
         {/* Banner Image */}
         <div className="w-full mt-12 mb-12 flex justify-center">
-             <img src="/Sundial_banner.png" alt="Sundial Real Estate" className="h-16 w-auto object-contain" />
+             <img src="/placeholder_logo.svg" alt="Pixel Real Estate" className="h-16 w-auto object-contain" />
         </div>
 
         {/* About Me Section */}
@@ -119,7 +116,7 @@ const LandingPage: React.FC = () => {
             >
                 <div className="text-left text-warm-gray font-montserrat text-sm md:text-base leading-relaxed space-y-4 px-2 md:px-8 max-w-2xl mx-auto">
                     <p>Raised in Orlando and deeply rooted in Central Florida, I built my life around community, family, and service. After a chapter in Austin, Texas, where my husband and I started our family, we chose to return home to Orlando — a decision that reinforced just how special this community truly is.</p>
-                    <p>My personal experience buying and selling my own home with Sundial Real Estate gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
+                    <p>My personal experience buying and selling my own home with a local brokerage gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
                     <p>Before real estate, I built my career in customer service and earned a degree in culinary arts, where precision, timing, and attention to detail mattered every day. Those same skills now guide how I serve buyers and sellers — thoughtfully, proactively, and with steady support from contract to closing.</p>
                     <p>As a wife, a mom of two, and an active member of the local community, I understand that buying or selling a home is more than a transaction. It’s about lifestyle, schools, commute, family rhythms, and long-term goals. I approach every client relationship with that bigger picture in mind.</p>
                     <p>If you’re thinking about buying, selling, or simply exploring your options in Central Florida, I would be honored to guide you home.</p>
@@ -130,14 +127,14 @@ const LandingPage: React.FC = () => {
         {/* Footer */}
         <footer className="text-center pt-8 border-t border-light-gray/30">
             <p className="text-xs text-warm-gray/80 leading-relaxed mb-4">
-              Vendor recommendations are provided as a courtesy. Clients should verify licensing, insurance, and credentials independently. Sundial Real Estate and Brittany Kiniry do not guarantee third-party services.
+              Vendor recommendations are provided as a courtesy. Clients should verify licensing, insurance, and credentials independently. Brittany Kiniry does not guarantee third-party services.
             </p>
             <div className="flex justify-center items-center gap-6 mb-6">
                 <img src={EqualHousing} alt="Equal Housing Opportunity" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
                 <img src={RealtorMLS} alt="Realtor MLS" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
             </div>
             <p className="text-xs text-warm-gray/60">
-              © {new Date().getFullYear()} Sundial Real Estate. All rights reserved.
+              © 2026 Imagine Being Home LLC. All rights reserved.
             </p>
         </footer>
 
