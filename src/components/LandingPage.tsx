@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full min-h-[500px] md:min-h-[65vh] flex flex-col justify-center pt-8 md:pt-20 pb-16 md:pb-32">
+      <header className="relative w-full min-h-[500px] md:min-h-[65vh] flex flex-col justify-center pt-8 md:pt-20 pb-24 md:pb-40">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
@@ -51,6 +51,42 @@ const LandingPage: React.FC = () => {
               >
                   Browse the Resource Guide
               </a>
+            </div>
+
+            {/* Call-to-Action Section */}
+            <div className="mt-10 mb-8 w-full max-w-3xl mx-auto">
+              <h3 className="font-playfair text-3xl md:text-4xl text-[#4A4A4A] mb-4 text-center">
+                Ready to make a move?
+              </h3>
+              <p className="text-[#4A4A4A] text-sm md:text-base mb-8 max-w-lg mx-auto text-center">
+                Explore active listings, home evaluations, and more on my dedicated Pixel Realty site.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 w-full max-w-3xl mx-auto">
+                <a
+                  href="https://brittany.ipixelrealty.com/listing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center bg-white/90 backdrop-blur-sm border border-deep-teal text-deep-teal font-semibold text-lg py-4 px-6 rounded-full shadow-sm hover:bg-deep-teal hover:text-white transition-colors duration-300"
+                >
+                  Buy
+                </a>
+                <a
+                  href="https://brittany.ipixelrealty.com/sell"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center bg-white/90 backdrop-blur-sm border border-deep-teal text-deep-teal font-semibold text-lg py-4 px-6 rounded-full shadow-sm hover:bg-deep-teal hover:text-white transition-colors duration-300"
+                >
+                  Sell
+                </a>
+                <a
+                  href="https://brittany.ipixelrealty.com/rental-listing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center bg-white/90 backdrop-blur-sm border border-deep-teal text-deep-teal font-semibold text-lg py-4 px-6 rounded-full shadow-sm hover:bg-deep-teal hover:text-white transition-colors duration-300"
+                >
+                  Rent
+                </a>
+              </div>
             </div>
 
         </div>
