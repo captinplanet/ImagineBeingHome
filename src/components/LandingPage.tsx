@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full min-h-[500px] md:min-h-[75vh] flex flex-col justify-center pb-16 md:pb-24">
+      <header className="relative w-full min-h-[500px] md:min-h-[65vh] flex flex-col justify-center pt-8 md:pt-20 pb-16 md:pb-32">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
@@ -44,7 +44,7 @@ const LandingPage: React.FC = () => {
                   Coming soon
               </button>
               <a
-                  href="https://www.canva.com/design/DAHBy52ZfSc/KCfaJqE4pwgiyPgkoSWkhg/view?utm_content=DAHBy52ZfSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b67ea1a70"
+                  href="https://canva.link/f5fi8hno892k1i3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center px-8 py-4 bg-white text-deep-teal border border-deep-teal text-lg font-medium rounded-button transition-colors duration-300"
@@ -57,10 +57,10 @@ const LandingPage: React.FC = () => {
       </header>
 
       {/* Main Content Container - Strict max-w-760px */}
-      <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-4 md:pt-8 pb-16">
+      <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-0 pb-16">
 
         {/* Credibility Section */}
-        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-20 mb-12">
+        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-24 mb-12">
             <div className="w-full md:w-1/3">
                 {/* Placeholder for Headshot */}
                 <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
@@ -73,7 +73,7 @@ const LandingPage: React.FC = () => {
                     <span className="text-gray-500">#SL3627481</span>
                 </div>
                 <div className="flex flex-col gap-2 w-full mt-2">
-                    <a href="tel:4077593275" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.759.3275</a>
+                    <a href="tel:4074534755" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.453.4755</a>
                     <a href="mailto:brittany@imaginebeinghome.com" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">
                         <span className="hidden max-[360px]:inline">Email Brittany</span>
                         <span className="max-[360px]:hidden">brittany@imaginebeinghome.com</span>
@@ -85,7 +85,7 @@ const LandingPage: React.FC = () => {
 
         {/* Banner Image */}
         <div className="w-full mt-12 mb-12 flex justify-center">
-             <img src="/placeholder_logo.svg" alt="Pixel Real Estate" className="h-16 w-auto object-contain" />
+             <img src="/Pixel_Logo.webp" alt="Pixel Real Estate" className="h-48 w-auto object-contain" />
         </div>
 
         {/* About Me Section */}
