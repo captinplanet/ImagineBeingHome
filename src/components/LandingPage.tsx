@@ -88,7 +88,10 @@ const LandingPage: React.FC = () => {
              <a href="https://brittany.ipixelrealty.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-90 transition-opacity duration-200">
                  <img src="/Pixel_Logo.webp" alt="Pixel Real Estate" className="h-48 w-auto object-contain" />
              </a>
-             <img src="/QR_Closely.png" alt="QR Closely" className="h-32 w-auto object-contain" />
+             <div className="flex flex-col items-center gap-2">
+                 <span className="text-sm font-semibold text-[#4A4A4A]">Download My App</span>
+                 <img src="/QR_Closely.png" alt="QR Closely" className="h-32 w-auto object-contain" />
+             </div>
         </div>
 
         {/* About Me Section */}
