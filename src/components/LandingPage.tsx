@@ -90,19 +90,17 @@ const LandingPage: React.FC = () => {
                 <h4 className="font-playfair text-xl text-[#1F7A7A] text-center mb-1">
                     Ready to make a move?
                 </h4>
-                <p className="text-xs text-center text-gray-500 max-w-xs mx-auto mb-4">
-                    Explore active MLS data, personalized home evaluations, and more on my dedicated Pixel Realty site.
+                <p className="text-xs text-center text-[#4A4A4A] font-montserrat font-medium max-w-xl mx-auto mb-6 leading-relaxed">
+                    Whether you're looking for your first home in Conway or a luxury estate in Belle Isle, my dedicated Pixel Realty portal gives you direct access to <strong className="text-deep-teal">live MLS data</strong> and <strong className="text-deep-teal">personalized market reports</strong> tailored to your goals.
                 </p>
-                <div className="flex justify-center items-center gap-4 text-sm font-semibold">
-                    <a href="https://brittany.ipixelrealty.com/listing" target="_blank" rel="noopener noreferrer" className="text-[#1F7A7A] hover:text-[#FF6F61] transition-colors">
+                <div className="grid grid-cols-3 gap-3 w-full px-4 md:px-8 mb-2">
+                    <a href="https://brittany.ipixelrealty.com/listing" target="_blank" rel="noopener noreferrer" className="text-center py-2.5 bg-[#1F7A7A]/10 text-[#1F7A7A] text-sm font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
                         Buy
                     </a>
-                    <span className="text-gray-300 font-light">|</span>
-                    <a href="https://brittany.ipixelrealty.com/sell" target="_blank" rel="noopener noreferrer" className="text-[#1F7A7A] hover:text-[#FF6F61] transition-colors">
+                    <a href="https://brittany.ipixelrealty.com/sell" target="_blank" rel="noopener noreferrer" className="text-center py-2.5 bg-[#1F7A7A]/10 text-[#1F7A7A] text-sm font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
                         Sell
                     </a>
-                    <span className="text-gray-300 font-light">|</span>
-                    <a href="https://brittany.ipixelrealty.com/rental-listing" target="_blank" rel="noopener noreferrer" className="text-[#1F7A7A] hover:text-[#FF6F61] transition-colors">
+                    <a href="https://brittany.ipixelrealty.com/rental-listing" target="_blank" rel="noopener noreferrer" className="text-center py-2.5 bg-[#1F7A7A]/10 text-[#1F7A7A] text-sm font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
                         Rent
                     </a>
                 </div>
