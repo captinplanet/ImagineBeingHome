@@ -84,10 +84,11 @@ const LandingPage: React.FC = () => {
         </section>
 
         {/* Banner Image */}
-        <div className="w-full mt-12 mb-12 flex justify-center">
+        <div className="w-full mt-12 mb-12 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
              <a href="https://brittany.ipixelrealty.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-90 transition-opacity duration-200">
                  <img src="/Pixel_Logo.webp" alt="Pixel Real Estate" className="h-48 w-auto object-contain" />
              </a>
+             <img src="/QR_Closely.png" alt="QR Closely" className="h-32 w-auto object-contain" />
         </div>
 
         {/* About Me Section */}
