@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full min-h-[500px] md:min-h-[75vh] flex flex-col justify-center pb-16 md:pb-24">
+      <header className="relative w-full min-h-[500px] md:min-h-[65vh] flex flex-col justify-center pt-8 md:pt-20 pb-16 md:pb-32">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
@@ -38,16 +38,13 @@ const LandingPage: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
-              <a
-                  href="https://bk.homestack.com/sundialrealestate?aik=bkiniry"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center px-8 py-4 bg-deep-teal text-white text-lg font-medium rounded-button hover:bg-opacity-90 transition-opacity duration-300"
+              <button
+                  className="flex items-center justify-center px-8 py-4 bg-deep-teal text-white text-lg font-medium rounded-button hover:bg-opacity-90 transition-opacity duration-300 cursor-default"
               >
-                  Download the Sundial App
-              </a>
+                  Coming soon
+              </button>
               <a
-                  href="https://www.canva.com/design/DAHBy52ZfSc/KCfaJqE4pwgiyPgkoSWkhg/view?utm_content=DAHBy52ZfSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b67ea1a70"
+                  href="https://canva.link/f5fi8hno892k1i3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center px-8 py-4 bg-white text-deep-teal border border-deep-teal text-lg font-medium rounded-button transition-colors duration-300"
@@ -60,10 +57,10 @@ const LandingPage: React.FC = () => {
       </header>
 
       {/* Main Content Container - Strict max-w-760px */}
-      <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-4 md:pt-8 pb-16">
+      <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-0 pb-16">
 
         {/* Credibility Section */}
-        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-20 mb-12">
+        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-24 mb-12">
             <div className="w-full md:w-1/3">
                 {/* Placeholder for Headshot */}
                 <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
@@ -76,7 +73,7 @@ const LandingPage: React.FC = () => {
                     <span className="text-gray-500">#SL3627481</span>
                 </div>
                 <div className="flex flex-col gap-2 w-full mt-2">
-                    <a href="tel:4077593275" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.759.3275</a>
+                    <a href="tel:4074534755" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.453.4755</a>
                     <a href="mailto:brittany@imaginebeinghome.com" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">
                         <span className="hidden max-[360px]:inline">Email Brittany</span>
                         <span className="max-[360px]:hidden">brittany@imaginebeinghome.com</span>
@@ -88,7 +85,7 @@ const LandingPage: React.FC = () => {
 
         {/* Banner Image */}
         <div className="w-full mt-12 mb-12 flex justify-center">
-             <img src="/Sundial_banner.png" alt="Sundial Real Estate" className="h-16 w-auto object-contain" />
+             <img src="/Pixel_Logo.webp" alt="Pixel Real Estate" className="h-48 w-auto object-contain" />
         </div>
 
         {/* About Me Section */}
@@ -119,7 +116,7 @@ const LandingPage: React.FC = () => {
             >
                 <div className="text-left text-warm-gray font-montserrat text-sm md:text-base leading-relaxed space-y-4 px-2 md:px-8 max-w-2xl mx-auto">
                     <p>Raised in Orlando and deeply rooted in Central Florida, I built my life around community, family, and service. After a chapter in Austin, Texas, where my husband and I started our family, we chose to return home to Orlando — a decision that reinforced just how special this community truly is.</p>
-                    <p>My personal experience buying and selling my own home with Sundial Real Estate gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
+                    <p>My personal experience buying and selling my own home with a local brokerage gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
                     <p>Before real estate, I built my career in customer service and earned a degree in culinary arts, where precision, timing, and attention to detail mattered every day. Those same skills now guide how I serve buyers and sellers — thoughtfully, proactively, and with steady support from contract to closing.</p>
                     <p>As a wife, a mom of two, and an active member of the local community, I understand that buying or selling a home is more than a transaction. It’s about lifestyle, schools, commute, family rhythms, and long-term goals. I approach every client relationship with that bigger picture in mind.</p>
                     <p>If you’re thinking about buying, selling, or simply exploring your options in Central Florida, I would be honored to guide you home.</p>
@@ -130,14 +127,14 @@ const LandingPage: React.FC = () => {
         {/* Footer */}
         <footer className="text-center pt-8 border-t border-light-gray/30">
             <p className="text-xs text-warm-gray/80 leading-relaxed mb-4">
-              Vendor recommendations are provided as a courtesy. Clients should verify licensing, insurance, and credentials independently. Sundial Real Estate and Brittany Kiniry do not guarantee third-party services.
+              Vendor recommendations are provided as a courtesy. Clients should verify licensing, insurance, and credentials independently. Brittany Kiniry does not guarantee third-party services.
             </p>
             <div className="flex justify-center items-center gap-6 mb-6">
                 <img src={EqualHousing} alt="Equal Housing Opportunity" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
                 <img src={RealtorMLS} alt="Realtor MLS" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
             </div>
             <p className="text-xs text-warm-gray/60">
-              © {new Date().getFullYear()} Sundial Real Estate. All rights reserved.
+              © 2026 Imagine Being Home LLC. All rights reserved.
             </p>
         </footer>
 

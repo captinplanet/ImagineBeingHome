@@ -33,7 +33,7 @@ describe('LandingPage', () => {
   it('renders the contact information', () => {
     render(<LandingPage />);
     expect(screen.getByText('Brittany Kiniry')).toBeInTheDocument();
-    expect(screen.getByText('407.759.3275')).toBeInTheDocument();
+    expect(screen.getByText('407.453.4755')).toBeInTheDocument();
   });
 
   it('toggles the About Me section', () => {
