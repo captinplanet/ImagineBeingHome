@@ -53,42 +53,6 @@ const LandingPage: React.FC = () => {
               </a>
             </div>
 
-            {/* Call-to-Action Section */}
-            <div className="mt-10 mb-8 w-full max-w-3xl mx-auto">
-              <h3 className="font-playfair text-3xl md:text-4xl text-[#4A4A4A] mb-4 text-center">
-                Ready to make a move?
-              </h3>
-              <p className="text-[#4A4A4A] text-sm md:text-base mb-8 max-w-lg mx-auto text-center">
-                Explore active listings, home evaluations, and more on my dedicated Pixel Realty site.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 w-full max-w-3xl mx-auto">
-                <a
-                  href="https://brittany.ipixelrealty.com/listing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-center bg-white/90 backdrop-blur-sm border border-deep-teal text-deep-teal font-semibold text-lg py-4 px-6 rounded-full shadow-sm hover:bg-deep-teal hover:text-white transition-colors duration-300"
-                >
-                  Buy
-                </a>
-                <a
-                  href="https://brittany.ipixelrealty.com/sell"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-center bg-white/90 backdrop-blur-sm border border-deep-teal text-deep-teal font-semibold text-lg py-4 px-6 rounded-full shadow-sm hover:bg-deep-teal hover:text-white transition-colors duration-300"
-                >
-                  Sell
-                </a>
-                <a
-                  href="https://brittany.ipixelrealty.com/rental-listing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-center bg-white/90 backdrop-blur-sm border border-deep-teal text-deep-teal font-semibold text-lg py-4 px-6 rounded-full shadow-sm hover:bg-deep-teal hover:text-white transition-colors duration-300"
-                >
-                  Rent
-                </a>
-              </div>
-            </div>
-
         </div>
       </header>
 
@@ -96,25 +60,51 @@ const LandingPage: React.FC = () => {
       <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-0 pb-16">
 
         {/* Credibility Section */}
-        <section className="relative z-20 flex flex-col md:flex-row overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-24 mb-12">
-            <div className="w-full md:w-1/3">
-                {/* Placeholder for Headshot */}
-                <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
+        <section className="relative z-20 flex flex-col overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-24 mb-12 pb-4 md:pb-6">
+            <div className="flex flex-col md:flex-row w-full">
+                <div className="w-full md:w-1/3">
+                    {/* Placeholder for Headshot */}
+                    <img src="/BrittHeadShot.avif" alt="Brittany Kiniry" className="w-full h-48 md:h-full object-cover object-center" />
+                </div>
+
+                <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-8 md:py-8 gap-1.5">
+                    <h3 className="text-2xl font-sans font-bold text-[#4A4A4A] tracking-tight mb-1">Brittany Kiniry</h3>
+                    <div className="flex justify-between items-center w-full text-sm text-[#4A4A4A] mb-3">
+                        <span className="font-medium tracking-wide uppercase">REALTOR®</span>
+                        <span className="text-gray-500">#SL3627481</span>
+                    </div>
+                    <div className="flex flex-col gap-2 w-full mt-2">
+                        <a href="tel:4074534755" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.453.4755</a>
+                        <a href="mailto:brittany@imaginebeinghome.com" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">
+                            <span className="hidden max-[360px]:inline">Email Brittany</span>
+                            <span className="max-[360px]:hidden">brittany@imaginebeinghome.com</span>
+                        </a>
+                        <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">@brittany_is_your_realtor</a>
+                    </div>
+                </div>
             </div>
 
-            <div className="w-full md:w-2/3 flex flex-col justify-center items-start text-left p-6 md:px-8 md:py-8 gap-1.5">
-                <h3 className="text-2xl font-sans font-bold text-[#4A4A4A] tracking-tight mb-1">Brittany Kiniry</h3>
-                <div className="flex justify-between items-center w-full text-sm text-[#4A4A4A] mb-3">
-                    <span className="font-medium tracking-wide uppercase">REALTOR®</span>
-                    <span className="text-gray-500">#SL3627481</span>
-                </div>
-                <div className="flex flex-col gap-2 w-full mt-2">
-                    <a href="tel:4074534755" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">407.453.4755</a>
-                    <a href="mailto:brittany@imaginebeinghome.com" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">
-                        <span className="hidden max-[360px]:inline">Email Brittany</span>
-                        <span className="max-[360px]:hidden">brittany@imaginebeinghome.com</span>
+            <hr className="border-t border-[#1F7A7A]/10 my-4" />
+
+            <div className="px-6">
+                <h4 className="font-playfair text-xl text-[#1F7A7A] text-center mb-1">
+                    Ready to make a move?
+                </h4>
+                <p className="text-xs text-center text-gray-500 max-w-xs mx-auto mb-4">
+                    Explore active MLS data, personalized home evaluations, and more on my dedicated Pixel Realty site.
+                </p>
+                <div className="flex justify-center items-center gap-4 text-sm font-semibold">
+                    <a href="https://brittany.ipixelrealty.com/listing" target="_blank" rel="noopener noreferrer" className="text-[#1F7A7A] hover:text-[#FF6F61] transition-colors">
+                        Buy
                     </a>
-                    <a href="https://instagram.com/brittany_is_your_realtor" target="_blank" rel="noopener noreferrer" className="w-full px-2 sm:px-4 py-2.5 text-[13px] sm:text-sm font-semibold text-[#1F7A7A] bg-[#1F7A7A]/10 rounded-lg text-center hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200 break-all">@brittany_is_your_realtor</a>
+                    <span className="text-gray-300 font-light">|</span>
+                    <a href="https://brittany.ipixelrealty.com/sell" target="_blank" rel="noopener noreferrer" className="text-[#1F7A7A] hover:text-[#FF6F61] transition-colors">
+                        Sell
+                    </a>
+                    <span className="text-gray-300 font-light">|</span>
+                    <a href="https://brittany.ipixelrealty.com/rental-listing" target="_blank" rel="noopener noreferrer" className="text-[#1F7A7A] hover:text-[#FF6F61] transition-colors">
+                        Rent
+                    </a>
                 </div>
             </div>
         </section>
