@@ -85,7 +85,9 @@ const LandingPage: React.FC = () => {
 
         {/* Banner Image */}
         <div className="w-full mt-12 mb-12 flex justify-center">
-             <img src="/Pixel_Logo.webp" alt="Pixel Real Estate" className="h-48 w-auto object-contain" />
+             <a href="https://brittany.ipixelrealty.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-90 transition-opacity duration-200">
+                 <img src="/Pixel_Logo.webp" alt="Pixel Real Estate" className="h-48 w-auto object-contain" />
+             </a>
         </div>
 
         {/* About Me Section */}
