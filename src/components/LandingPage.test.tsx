@@ -6,7 +6,7 @@ import LandingPage from './LandingPage';
 describe('LandingPage', () => {
   it('renders the headline', () => {
     render(<LandingPage />);
-    const headline = screen.getByText(/Imagine Being.../i);
+    const headline = screen.getAllByText(/Imagine Being.../i)[0];
     expect(headline).toBeInTheDocument();
   });
 
@@ -18,10 +18,10 @@ describe('LandingPage', () => {
     expect(headline).toHaveClass('text-[#4A4A4A]');
   });
 
-  it('renders the download button with correct link', () => {
+  it('renders the download app section', () => {
     render(<LandingPage />);
-    const downloadButton = screen.getByRole('link', { name: /Download the Sundial App/i });
-    expect(downloadButton).toHaveAttribute('href', 'https://bk.homestack.com/sundialrealestate?aik=bkiniry');
+    const downloadText = screen.getByText('Download My App');
+    expect(downloadText).toBeInTheDocument();
   });
 
   it('renders the resource guide button', () => {

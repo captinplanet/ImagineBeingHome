@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
       </style>
 
       {/* Full-Bleed Hero Section */}
-      <header className="relative w-full min-h-[500px] md:min-h-[65vh] flex flex-col justify-center pt-8 md:pt-20 pb-16 md:pb-32">
+      <header className="relative w-full min-h-[500px] md:min-h-[65vh] flex flex-col justify-center pt-8 md:pt-20 pb-24 md:pb-40">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
             <img
@@ -51,6 +51,39 @@ const LandingPage: React.FC = () => {
               >
                   Browse the Resource Guide
               </a>
+            </div>
+
+            {/* Call-to-Action Section */}
+            <div className="mt-10 w-full">
+              <h3 className="font-playfair text-deep-teal text-2xl md:text-3xl font-semibold mb-6">
+                Ready to make a move?
+              </h3>
+              <div className="flex flex-col md:flex-row gap-4 md:justify-center">
+                <a
+                  href="https://brittany.ipixelrealty.com/listing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full md:w-auto text-center rounded-full border-2 border-deep-teal text-deep-teal font-semibold px-6 py-3 hover:bg-light-seafoam transition-colors duration-200"
+                >
+                  Buy
+                </a>
+                <a
+                  href="https://brittany.ipixelrealty.com/sell"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full md:w-auto text-center rounded-full border-2 border-deep-teal text-deep-teal font-semibold px-6 py-3 hover:bg-light-seafoam transition-colors duration-200"
+                >
+                  Sell
+                </a>
+                <a
+                  href="https://brittany.ipixelrealty.com/rental-listing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full md:w-auto text-center rounded-full border-2 border-deep-teal text-deep-teal font-semibold px-6 py-3 hover:bg-light-seafoam transition-colors duration-200"
+                >
+                  Rent
+                </a>
+              </div>
             </div>
 
         </div>
