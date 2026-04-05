@@ -60,7 +60,7 @@ const LandingPage: React.FC = () => {
       <div className="w-full max-w-[760px] mx-auto px-8 md:px-16 pt-0 pb-16">
 
         {/* Credibility Section */}
-        <section className="relative z-20 flex flex-col overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-24 mb-12 pb-4 md:pb-6">
+        <section className="relative z-20 flex flex-col overflow-hidden bg-white rounded-[16px] max-w-xl mx-auto w-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-[#D9D6D2] -mt-12 md:-mt-24 mb-12">
             <div className="flex flex-col md:flex-row w-full">
                 <div className="w-full md:w-1/3">
                     {/* Placeholder for Headshot */}
@@ -84,23 +84,23 @@ const LandingPage: React.FC = () => {
                 </div>
             </div>
 
-            <hr className="border-t border-[#1F7A7A]/10 my-4" />
+            <hr className="border-t border-[#1F7A7A]/20 m-0" />
 
-            <div className="px-6">
-                <h4 className="font-playfair text-xl text-[#1F7A7A] text-center mb-1">
+            <div className="px-6 py-6 md:py-8 bg-slate-50/50">
+                <h4 className="font-playfair font-semibold text-2xl md:text-3xl lg:text-4xl text-[#1F7A7A] text-center mb-3">
                     Ready to make a move?
                 </h4>
-                <p className="text-xs text-center text-[#4A4A4A] font-montserrat font-medium max-w-xl mx-auto mb-6 leading-relaxed">
+                <p className="text-sm md:text-lg text-center text-[#4A4A4A] font-montserrat font-medium max-w-xl mx-auto mt-2 mb-6 leading-relaxed">
                     Whether you're looking for your first home in Conway or a luxury estate in Belle Isle, my dedicated Pixel Realty portal gives you direct access to <strong className="text-deep-teal">live MLS data</strong> and <strong className="text-deep-teal">personalized market reports</strong> tailored to your goals.
                 </p>
                 <div className="grid grid-cols-3 gap-3 w-full px-4 md:px-8 mb-2">
-                    <a href="https://brittany.ipixelrealty.com/listing" target="_blank" rel="noopener noreferrer" className="text-center py-2.5 bg-[#1F7A7A]/10 text-[#1F7A7A] text-sm font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
+                    <a href="https://brittany.ipixelrealty.com/listing" target="_blank" rel="noopener noreferrer" className="text-center py-3 md:py-4 bg-[#1F7A7A]/10 text-[#1F7A7A] text-base md:text-lg font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
                         Buy
                     </a>
-                    <a href="https://brittany.ipixelrealty.com/sell" target="_blank" rel="noopener noreferrer" className="text-center py-2.5 bg-[#1F7A7A]/10 text-[#1F7A7A] text-sm font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
+                    <a href="https://brittany.ipixelrealty.com/sell" target="_blank" rel="noopener noreferrer" className="text-center py-3 md:py-4 bg-[#1F7A7A]/10 text-[#1F7A7A] text-base md:text-lg font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
                         Sell
                     </a>
-                    <a href="https://brittany.ipixelrealty.com/rental-listing" target="_blank" rel="noopener noreferrer" className="text-center py-2.5 bg-[#1F7A7A]/10 text-[#1F7A7A] text-sm font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
+                    <a href="https://brittany.ipixelrealty.com/rental-listing" target="_blank" rel="noopener noreferrer" className="text-center py-3 md:py-4 bg-[#1F7A7A]/10 text-[#1F7A7A] text-base md:text-lg font-semibold rounded-full hover:bg-[#1F7A7A] hover:text-white transition-colors duration-200">
                         Rent
                     </a>
                 </div>
