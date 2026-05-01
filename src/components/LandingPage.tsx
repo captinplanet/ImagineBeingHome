@@ -38,11 +38,14 @@ const LandingPage: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
-              <button
-                  className="flex items-center justify-center px-8 py-4 bg-deep-teal text-white text-lg font-medium rounded-button hover:bg-opacity-90 transition-opacity duration-300 cursor-default"
+              <a
+                  href="https://www.getclosely.com/download?type=Identify_AgentId_Link&t=1234567891&agentId=844773615010693&utm_source=website&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT87JL07NqdRLLCjQy8nMy9ZP1c%2FMCKzIcvV3MzJMsq8rSk1LLSrKzEuPTyrKLy9OLbL1zU%2FKzElVNTIITkxLLMoEAMJWT1VJAAAA&%24web_only=true&_branch_match_id=1569034083628427610"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center px-8 py-4 bg-deep-teal text-white text-lg font-medium rounded-button hover:bg-opacity-90 transition-opacity duration-300"
               >
-                  Coming soon
-              </button>
+                  Download My App
+              </a>
               <a
                   href="https://canva.link/f5fi8hno892k1i3"
                   target="_blank"
@@ -104,6 +107,14 @@ const LandingPage: React.FC = () => {
                         Rent
                     </a>
                 </div>
+                <a
+                    href="https://canva.link/l3d2x0ygm9o4wmp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full border border-deep-teal/20 text-deep-teal font-bold text-center py-4 rounded-lg hover:bg-deep-teal hover:text-white transition-colors duration-300 mt-6 text-sm md:text-base"
+                >
+                    First-Time Home Buyers Guide →
+                </a>
             </div>
         </section>
 
