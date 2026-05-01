@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import EqualHousing from '../assets/Equal-Housing.png';
 import RealtorMLS from '../assets/Realtor-MLS.png';
 
 const LandingPage: React.FC = () => {
-  const [isAboutExpanded, setIsAboutExpanded] = useState(false);
-
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
       <style>
@@ -130,38 +128,18 @@ const LandingPage: React.FC = () => {
         </div>
 
         {/* About Me Section */}
-        <section className="w-full mb-12 flex flex-col items-center">
-            <button
-                onClick={() => setIsAboutExpanded(!isAboutExpanded)}
-                className="flex justify-between items-center w-full max-w-5xl mx-auto border-y border-[#D9D6D2] py-4 px-6 md:px-12 cursor-pointer hover:bg-gray-50 transition-colors focus:outline-none group"
-                aria-expanded={isAboutExpanded}
-            >
-                <span className="text-lg font-medium text-[#4A4A4A]">About me</span>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                    className={`w-5 h-5 transform transition-transform duration-300 text-[#4A4A4A] ${isAboutExpanded ? 'rotate-180' : ''}`}
-                >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                </svg>
-            </button>
+        <section className="w-full bg-slate-50 py-16 px-6 md:px-12">
+            <h2 className="font-playfair text-3xl md:text-4xl text-deep-teal text-center mb-2">A Note from Brittany</h2>
+            <div className="w-12 h-1 bg-coral mx-auto mb-10"></div>
 
-            <div
-                data-testid="about-content"
-                className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                    isAboutExpanded ? 'max-h-[1000px] opacity-100 mt-8' : 'max-h-0 opacity-0 mt-0'
-                }`}
-            >
-                <div className="text-left text-warm-gray font-montserrat text-sm md:text-base leading-relaxed space-y-4 px-2 md:px-8 max-w-2xl mx-auto">
-                    <p>Raised in Orlando and deeply rooted in Central Florida, I built my life around community, family, and service. After a chapter in Austin, Texas, where my husband and I started our family, we chose to return home to Orlando — a decision that reinforced just how special this community truly is.</p>
-                    <p>My personal experience buying and selling my own home with a local brokerage gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
-                    <p>Before real estate, I built my career in customer service and earned a degree in culinary arts, where precision, timing, and attention to detail mattered every day. Those same skills now guide how I serve buyers and sellers — thoughtfully, proactively, and with steady support from contract to closing.</p>
-                    <p>As a wife, a mom of two, and an active member of the local community, I understand that buying or selling a home is more than a transaction. It’s about lifestyle, schools, commute, family rhythms, and long-term goals. I approach every client relationship with that bigger picture in mind.</p>
-                    <p>If you’re thinking about buying, selling, or simply exploring your options in Central Florida, I would be honored to guide you home.</p>
-                </div>
+            <div className="max-w-prose mx-auto text-gray-700 leading-relaxed font-medium text-center md:text-left space-y-4">
+                <p>Raised in Orlando and deeply rooted in Central Florida, I built my life around community, family, and service. After a chapter in Austin, Texas, where my husband and I started our family, we chose to return home to Orlando — a decision that reinforced just how special this community truly is.</p>
+                <p>My personal experience buying and selling my own home with a local brokerage gave me firsthand insight into what clients deserve: clear communication, strategic guidance, and an advocate who genuinely cares. That experience ultimately inspired me to join the brokerage that helped my own family feel confident and supported.</p>
+                <p>Before real estate, I built my career in customer service and earned a degree in culinary arts, where precision, timing, and attention to detail mattered every day. Those same skills now guide how I serve buyers and sellers — thoughtfully, proactively, and with steady support from contract to closing.</p>
+                <p>As a wife, a mom of two, and an active member of the local community, I understand that buying or selling a home is more than a transaction. It’s about lifestyle, schools, commute, family rhythms, and long-term goals. I approach every client relationship with that bigger picture in mind.</p>
+                <p>If you’re thinking about buying, selling, or simply exploring your options in Central Florida, I would be honored to guide you home.</p>
+
+                <p className="font-playfair text-2xl text-deep-teal italic mt-8">- Brittany</p>
             </div>
         </section>
 

@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom'; // Adds the 'toBeInTheDocument' and 'toHaveClass' vocabulary
 import { describe, it, expect } from 'vitest'; // Imports the core testing functions
 import LandingPage from './LandingPage';
@@ -36,35 +36,13 @@ describe('LandingPage', () => {
     expect(screen.getByText('407.453.4755')).toBeInTheDocument();
   });
 
-  it('toggles the About Me section', () => {
+  it('renders the static About Me editorial section', () => {
     render(<LandingPage />);
 
-    // Find the toggle button
-    const toggleButton = screen.getByRole('button', { name: /About Me/i });
-    expect(toggleButton).toBeInTheDocument();
+    // Check for the headline
+    expect(screen.getByRole('heading', { name: /A Note from Brittany/i })).toBeInTheDocument();
 
-    // Initially collapsed
-    expect(toggleButton).toHaveAttribute('aria-expanded', 'false');
-
-    // Check classes on content container for visibility state
-    const contentContainer = screen.getByTestId('about-content');
-    expect(contentContainer).toHaveClass('max-h-0');
-    expect(contentContainer).toHaveClass('opacity-0');
-
-    // Click to expand
-    fireEvent.click(toggleButton);
-
-    // Expanded state
-    expect(toggleButton).toHaveAttribute('aria-expanded', 'true');
-    expect(contentContainer).toHaveClass('max-h-[1000px]');
-    expect(contentContainer).toHaveClass('opacity-100');
-
-    // Click to collapse
-    fireEvent.click(toggleButton);
-
-    // Collapsed state
-    expect(toggleButton).toHaveAttribute('aria-expanded', 'false');
-    expect(contentContainer).toHaveClass('max-h-0');
-    expect(contentContainer).toHaveClass('opacity-0');
+    // Check for the signature
+    expect(screen.getByText('- Brittany')).toBeInTheDocument();
   });
 });
