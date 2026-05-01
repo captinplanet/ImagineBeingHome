@@ -107,6 +107,14 @@ const LandingPage: React.FC = () => {
                         Rent
                     </a>
                 </div>
+                <a
+                    href="https://canva.link/l3d2x0ygm9o4wmp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full border border-deep-teal/20 text-deep-teal font-bold text-center py-4 rounded-lg hover:bg-deep-teal hover:text-white transition-colors duration-300 mt-6 text-sm md:text-base"
+                >
+                    First-Time Home Buyers Guide →
+                </a>
             </div>
         </section>
 
