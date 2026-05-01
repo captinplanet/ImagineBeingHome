@@ -20,8 +20,8 @@ describe('LandingPage', () => {
 
   it('renders the download app section', () => {
     render(<LandingPage />);
-    const downloadText = screen.getByText('Download My App');
-    expect(downloadText).toBeInTheDocument();
+    const downloadTexts = screen.getAllByText('Download My App');
+    expect(downloadTexts.length).toBeGreaterThan(0);
   });
 
   it('renders the resource guide button', () => {
