@@ -6,7 +6,8 @@ const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
       <style>
-        {`@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');`}
+        {`@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');`}
       </style>
 
       {/* Full-Bleed Hero Section */}
@@ -128,9 +129,9 @@ const LandingPage: React.FC = () => {
         </div>
 
         {/* About Me Section */}
-        <section className="w-full bg-slate-50 py-16 px-6 md:px-12">
-            <h2 className="font-playfair text-3xl md:text-4xl text-deep-teal text-center mb-2">A Note from Brittany</h2>
-            <div className="w-12 h-1 bg-coral mx-auto mb-10"></div>
+        <section className="w-full bg-slate-50 pt-10 pb-16 px-6 md:px-12">
+            <h2 className="font-montserrat font-semibold tracking-wide text-3xl md:text-4xl text-deep-teal text-center mb-2">A Note from Brittany</h2>
+            <div className="w-12 h-1 bg-coral mx-auto mb-6"></div>
 
             <div className="max-w-prose mx-auto text-gray-700 leading-relaxed font-medium text-center md:text-left space-y-4">
                 <p>Raised in Orlando and deeply rooted in Central Florida, I built my life around community, family, and service. After a chapter in Austin, Texas, where my husband and I started our family, we chose to return home to Orlando — a decision that reinforced just how special this community truly is.</p>
@@ -139,7 +140,7 @@ const LandingPage: React.FC = () => {
                 <p>As a wife, a mom of two, and an active member of the local community, I understand that buying or selling a home is more than a transaction. It’s about lifestyle, schools, commute, family rhythms, and long-term goals. I approach every client relationship with that bigger picture in mind.</p>
                 <p>If you’re thinking about buying, selling, or simply exploring your options in Central Florida, I would be honored to guide you home.</p>
 
-                <p className="font-playfair text-2xl text-deep-teal italic mt-8">- Brittany</p>
+                <p className="font-['Caveat'] text-4xl md:text-5xl text-deep-teal font-bold -rotate-3 mt-4 select-none">- Brittany</p>
             </div>
         </section>
 
