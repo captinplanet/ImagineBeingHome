@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React /*, { useEffect } */ from 'react';
 import EqualHousing from '../assets/Equal-Housing.png';
 import RealtorMLS from '../assets/Realtor-MLS.png';
 
