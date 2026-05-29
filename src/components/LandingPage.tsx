@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import EqualHousing from '../assets/Equal-Housing.png';
 import RealtorMLS from '../assets/Realtor-MLS.png';
 
 const LandingPage: React.FC = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
+    script.async = true;
+    script.type = 'text/javascript';
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
       <style>
@@ -159,6 +171,7 @@ const LandingPage: React.FC = () => {
         </footer>
 
       </div>
+      <elevenlabs-convai agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"></elevenlabs-convai>
     </div>
   );
 };
