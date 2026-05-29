@@ -4,6 +4,8 @@ import RealtorMLS from '../assets/Realtor-MLS.png';
 
 const LandingPage: React.FC = () => {
   /*
+   * ElevenLabs Widget - Disabled for future use
+   * Uncomment this useEffect and the <elevenlabs-convai> element below to re-enable
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
@@ -173,6 +175,7 @@ const LandingPage: React.FC = () => {
         </footer>
 
       </div>
+      {/* ElevenLabs Widget - Disabled for future use */}
       {/* <elevenlabs-convai agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"></elevenlabs-convai> */}
     </div>
   );
