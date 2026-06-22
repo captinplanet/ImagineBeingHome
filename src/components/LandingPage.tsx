@@ -1,11 +1,9 @@
-import React /*, { useEffect } */ from 'react';
+import React, { useEffect } from 'react';
 import EqualHousing from '../assets/Equal-Housing.png';
 import RealtorMLS from '../assets/Realtor-MLS.png';
 
 const LandingPage: React.FC = () => {
-  /*
-   * ElevenLabs Widget - Disabled for future use
-   * Uncomment this useEffect and the <elevenlabs-convai> element below to re-enable
+  // ElevenLabs Widget
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
@@ -17,7 +15,6 @@ const LandingPage: React.FC = () => {
       document.body.removeChild(script);
     };
   }, []);
-  */
 
   return (
     <div className="min-h-screen bg-sand-bg font-montserrat text-warm-gray">
@@ -175,8 +172,8 @@ const LandingPage: React.FC = () => {
         </footer>
 
       </div>
-      {/* ElevenLabs Widget - Disabled for future use */}
-      {/* <elevenlabs-convai agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"></elevenlabs-convai> */}
+      {/* ElevenLabs Widget */}
+      <elevenlabs-convai agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"></elevenlabs-convai>
     </div>
   );
 };
