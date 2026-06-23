@@ -173,7 +173,10 @@ const LandingPage: React.FC = () => {
 
       </div>
       {/* ElevenLabs Widget */}
-      <elevenlabs-convai agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"></elevenlabs-convai>
+      <elevenlabs-convai
+        agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"
+        override-first-message="Hi there! I'm Clara, Brittany's AI assistant. She's away from her desk at the moment, but I'm here to help direct your call! Are you looking into buying, renting, or selling a home, or would you like to leave a message for her?"
+      ></elevenlabs-convai>
     </div>
   );
 };
