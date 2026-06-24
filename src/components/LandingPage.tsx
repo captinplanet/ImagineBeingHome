@@ -173,7 +173,7 @@ const LandingPage: React.FC = () => {
 
       </div>
       {/* ElevenLabs Widget */}
-      <elevenlabs-convai agent-id="agent_3401ksnbk85tf6fbeg20ckjmr0b3"></elevenlabs-convai>
+      <elevenlabs-convai agent-id="agent_3501kvtvqhxwedb8kajjh8vf4vtt"></elevenlabs-convai>
     </div>
   );
 };
